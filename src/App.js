@@ -10,7 +10,7 @@ const lists = data.STORE.lists;
 const listMap = lists.map((list) =>
   {
     const cards = list.cardIds.map(cardId => data.STORE.allCards[cardId]);
-    return <List.List header={list.header} cards={cards} />
+    return <List header={list.header} cards={cards} />
   });
  
 
@@ -32,4 +32,4 @@ class App extends React.Component {
   }
 };
 
-export default {App};
+export default App;

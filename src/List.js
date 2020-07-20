@@ -8,7 +8,7 @@ class List extends React.Component {
 
   render() {
 
-    const cardMap = this.props.cards.map(card => <Card.Card title={card.title} content={card.content} />);
+    const cardMap = this.props.cards.map(card => <Card title={card.title} content={card.content} />);
 
     return (
       <section className="List">
@@ -26,7 +26,7 @@ class List extends React.Component {
   }
 }
 
-export default {List};
+export default List;
 /*
 {
   "items": [
